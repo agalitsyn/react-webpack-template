@@ -4,7 +4,7 @@ module.exports = {
     devtool: 'source-map',
     debug: true,
     entry: {
-        bundle: path.join(__dirname, 'modules', 'client')
+        bundle: path.join(__dirname, 'modules', 'client', 'client')
     },
     output: {
         filename: 'bundle.js',

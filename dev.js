@@ -6,7 +6,7 @@ var WebpackDevServer = require('webpack-dev-server')
 var config = require('./webpack.config')
 var path = require('path')
 
-var app = require('./modules/server')
+var app = require('./modules/server').default
 var appPort = 1337
 var proxy = 'http://localhost:' + appPort
 app.listen(1337)

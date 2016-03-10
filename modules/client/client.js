@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import '../modules/client/styles.css'
+import '../../modules/client/styles.css'
 
 class Hello extends React.Component {
     render() {
