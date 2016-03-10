@@ -1,4 +1,9 @@
 *~
+*.swp
+*.iml
+.DS_Store
+.idea
 node_modules
-browser-bundle.js
-browser-bundle.js.map
+bundle.js
+bundle.js.map
+npm-debug.log

@@ -1,10 +1,26 @@
-# react-webpack-template
+# React ES6 boilerplate
 
-This is a simple template for building React apps. Use this to get started, and if you find yourself needing additional features, see my [webpack-howto](https://github.com/petehunt/webpack-howto).
+Fork of `https://github.com/petehunt/react-webpack-template`
+
+## How it was created
+
+* `npm init` and answer some questions
+* `npm install --save-dev eslint eslint-plugin-react`
+* `./node_modules/.bin/eslint --init` and answer some questions
+* `npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react`
+* `npm install --save-dev babel-eslint` and change parser in `.eslintrc`
+* `npm install --save-dev webpack webpack-dev-server css-loader extract-text-webpack-plugin file-loader style-loader url-loader bundle-loader`
+* `npm install --save react react-dom`
+* Finally uncomment `save-exact = true` in `.npmrc` for app development
 
 ## How to use this
 
-  * Clone the repo: `git clone https://github.com/petehunt/react-webpack-template my-new-project`
-  * Install the dependencies: `cd my-new-project && npm install`
-  * Start webpack: `npm start`
-  * Add your code to `index.js` and open `index.html`
+* Clone the repo
+* Install the dependencies: `npm install`
+* Start webpack: `npm start`
+* Add your code to `index.js` and open `index.html`
+
+## TODO
+
+* [ ] Add react-router
+* [ ] Add production build
