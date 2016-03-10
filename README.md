@@ -22,5 +22,6 @@ Fork of `https://github.com/petehunt/react-webpack-template`
 
 ## TODO
 
+* [ ] Use bootstrap from npm
 * [ ] Add react-router
 * [ ] Add production build
